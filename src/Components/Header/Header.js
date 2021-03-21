@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <div className="container">
             <nav className="navbar navbar-expand-lg navbar-light">
-                <h5 style={{fontWeight: 'bold'}}>Take Ride</h5>
+                <h5 style={{fontWeight: 'bold'}}>City Travels</h5>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
