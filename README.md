@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+City Travels
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It is a simple react based and Firebase authorized site developed by using react, bootstrap, custom CSS, JavaScript and html. For design purpose I have used Font Awesome icons and to maintain operational route and private route I also used react router. Mainly I have used Firebase authorization for email and password as well as google sign in.
 
-## Available Scripts
+Functionality:
+1.	At the home page this site displays a Navbar on the top that can be used to redirect user and   there are four different categories of transport on the middle of the page.
+2.	Each transport category is displayed on a card that contain a transport image and name of that transport. After clicking on the card, it will redirect to the private route 3  
+    page called booking.
+3.	As booking is a private route that’s why it first checks user authentication. So, it redirects to the login page.
+4.	In login page user can create account or can make simple login if already have an account. Beside that user can also login by using google account.
+5.	In the bottom of the login card there is an option toggler that can change the card based on user type.
+6.	If user try to login or create any unauthorized account/ if any wrong password issues happened or if there occurred any error it will show the error message on the bottom of 
+    the card.
+7.	After successfully login to the site it will redirect user to desire booking page. Where user must need to select pickup places, date and time. there is also a google map 
+    deployed by fetching google API.
+8.	After that user can see the transport type that changes dynamically, transport images, available seats and ticket price on the card. And user can also see the location on 
+    google map.
+9.	There is another private route path called Destination, that page also first check authentication.
+10.	And finally, this site is mainly focused react private routing, that dynamically changed according to users operate, and user authentication.
 
-In the project directory, you can run:
+Live Site Link: [City Travels](https://practical-fermat-71b3ba.netlify.app/)
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
