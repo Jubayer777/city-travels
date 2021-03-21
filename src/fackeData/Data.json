@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "name": "Bike",
+      "img": "https://clipartstation.com/wp-content/uploads/2017/11/motor-bike-clipart-2.png",
+      "seat":2,
+      "price":50
+    },
+    {
+      "id": 2,
+      "name": "Car",
+      "img":"https://www.easylinedrawing.com/wp-content/uploads/2019/07/cartoon_car_drawing_tutorial.png",
+      "seat":4,
+      "price":80
+    },
+    {
+      "id": 3,
+      "name": "Bus",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS2ZOkuKsnv91Q8OmxAq7q_zHyXPYYI7L4gA&usqp=CAU",
+      "seat":20,
+      "price":30
+    },
+    {
+      "id": 4,
+      "name": "Train",
+      "img":"https://cdn.picpng.com/train/shape-train-39108.png",
+      "seat":80,
+      "price":20
+      
+    }
+]
