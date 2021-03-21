@@ -108,8 +108,6 @@ function Login() {
                                 <br/>
                                 <input className="user-input"  type="password" onBlur={handleBlur} name="password" placeholder="Password" required/>
                                 <br/>
-                                <input className="user-input" type="password" onBlur={handleBlur} name="confirm-password" placeholder="Confirm Password" required/>
-                                <br/>
                                 <button id="user-submit"  type="submit">Create an account</button>
                             </form>
                          </div>
