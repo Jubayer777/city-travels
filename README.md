@@ -18,5 +18,5 @@ Functionality:
 9.	There is another private route path called Destination, that page also first check authentication.
 10.	And finally, this site is mainly focused react private routing, that dynamically changed according to users operate, and user authentication.
 
-Live Site Link: [City Travels](https://practical-fermat-71b3ba.netlify.app/)
+Live Site Link: [City Travels](https://city-travel.netlify.app/)
 
